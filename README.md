@@ -1,6 +1,6 @@
 # Subscan.io Issue Tracker
 
-Click [here](https://github.com/itering/subscan-issue-tracker/issues/new) to open an issue for feature requests, bug reports, etc.
+Click [here](https://github.com/itering/subscan-issue-tracker/issues/new/choose) to open an issue for feature requests, bug reports, etc.
 
 ## Useful links
 
