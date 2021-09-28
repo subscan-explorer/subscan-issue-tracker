@@ -20,6 +20,8 @@ body:
       options:
         - Project developer
         - Community user
+    validations:
+      required: true
 
   - type: textarea
     attributes:
