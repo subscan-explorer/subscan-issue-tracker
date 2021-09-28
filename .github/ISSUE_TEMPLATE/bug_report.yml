@@ -19,18 +19,13 @@ body:
       options:
         - label: My issue isn't already found on the issue tracker.
           required: true
-        - label: I have read the Subscan API documentation (if it's an API bug).
+        - label: I have read the Subscan API documentation (if it seemed to be an API bug).
           required: true
 
-  - type: textarea
+  - type: input
     attributes:
-      label: Affected network(s)
-      description: |
-        Please list the networks as a list, for example:
-        ```
-        - Kusama
-        - Polkadot
-        ```
+      label: Affected Network(s)
+      placeholder: e.g., Polkadot, Kusama, ...
     validations:
       required: true
 
@@ -40,9 +35,9 @@ body:
       description: |
         How can your issue be replicated?
       placeholder: |
-        1. In this environment...
-        2. With this config...
-        3. Run '...'
+        1. In this network environment...
+        2. With this browser...
+        3. Run ... or open ...
         4. See error...
     validations:
       required: true
