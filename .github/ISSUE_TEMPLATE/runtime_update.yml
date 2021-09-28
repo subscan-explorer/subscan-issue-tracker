@@ -1,6 +1,7 @@
-name: "\U0001F680 Runtime Update"
-description: "Submit the necessary information for network runtime update"
-labels: ["kind/enhancement"]
+name: Runtime Update
+description: Submit the necessary information for network runtime update
+title: "[Runtime]: "
+labels: [kind/enhancement]
 assignees:
   - freehere107
 
