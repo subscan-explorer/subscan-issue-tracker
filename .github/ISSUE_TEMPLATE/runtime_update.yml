@@ -6,6 +6,7 @@ labels:
 assignees:
   - freehere107
   - yakio 
+
 body:
   - type: markdown
     attributes:
@@ -13,19 +14,22 @@ body:
         Thank you for opening an issue. Please note that we try to keep the
         issue tracker reserved for bug reports and feature requests. For general
         usage questions, contact hello@subscan.io. 
- - type: checkboxes
+
+  - type: checkboxes
     attributes:
       label: Your identity
       options:
         - label: Project developer
           required: false
         - label: Community/User
-          required: false          
+          required: false
+
   - type: textarea
     attributes:
       label: Updated network(s)
     validations:
       required: true 
+
   - type: textarea
     attributes:
       label: Runtime version description
@@ -53,6 +57,7 @@ body:
         `StakingElection` => `StakersElected`
     validations:
       required: true
+
   - type: textarea
     attributes:
       label: Custom Types.json
