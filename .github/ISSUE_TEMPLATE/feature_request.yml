@@ -1,4 +1,4 @@
-name: "\U0001F680 Feature Request"
+name: "\u2728 Feature Request"
 description: "Suggest a new feature or other enhancement"
 labels: ["kind/enhancement"]
 assignees:
