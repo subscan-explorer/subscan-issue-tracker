@@ -1,4 +1,4 @@
-name: Runtime Update
+name: "Runtime Update"
 description: Submit the necessary information for network runtime update
 title: "[Runtime]: "
 labels: [kind/enhancement]
