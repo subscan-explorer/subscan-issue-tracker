@@ -23,9 +23,9 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     attributes:
-      label: Affected network(s)
+      label: Network(s)
     validations:
       required: true
 
@@ -35,9 +35,7 @@ body:
       description: |
         Describe the estimated time and updated detail about the new version.
 
-        Can add some important events to batch & staking to ensure ease of
-        analysis. For users tracking events this could be a breaking change,
-        here is a tl;dr:
+        Can add some important events to batch & staking to ensure ease of analysis. For users tracking events this could be a breaking change, here is a tl;dr:
 
         - `EraPayout` => `EraPaid`
         - `Reward` => `Rewarded`
