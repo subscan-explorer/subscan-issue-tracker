@@ -1,19 +1,18 @@
 name: "\U0001F41B Runtime Update"
 description: Submit the necessary information for network runtime update
-title: "[Runtime]: "
-labels: [kind/enhancement]
+title: '[Runtime]: '
+labels:
+  - kind/enhancement
 assignees:
   - freehere107
-
 body:
   - type: markdown
     attributes:
       value: >
         Thank you for opening an issue. Please note that we try to keep the
-        issue tracker reserved for bug reports and feature requests.
-        For general usage questions, contact hello@subscan.io.
-
- - type: checkboxes
+        issue tracker reserved for bug reports and feature requests. For general
+        usage questions, contact hello@subscan.io.
+  - type: checkboxes
     attributes:
       label: Your identity
       description: Please make sure to have followed the following checks.
@@ -22,7 +21,6 @@ body:
           required: false
         - label: Community/User
           required: false
-
   - type: textarea
     attributes:
       label: Affected network(s)
@@ -34,29 +32,38 @@ body:
         ```
     validations:
       required: true
-
   - type: textarea
     attributes:
       label: Runtime version description
       description: |
         Describe the estimated time, version and detail of the version update.
-      placeholder: |
+      placeholder: >
         1. Current version: 9080
+
         2. The latest version: 9090
+
         3. Estimated time: 2021-09-09 12:30(UTC+)
+
         4. Version update content:
-        Add some important events to batch & staking to ensure ease of analysis.For users tracking events this could be a breaking change, heres a tl;dr:
+
+        Add some important events to batch & staking to ensure ease of
+        analysis.For users tracking events this could be a breaking change,
+        heres a tl;dr:
+
         `EraPayout` => `EraPaid`
+
         `Reward` => `Rewarded`
+
         `Slash` => `Slashed`
+
         `StakingElection` => `StakersElected`
     validations:
       required: true
-
   - type: textarea
     attributes:
       label: Custom `Types.json` update
-      description: |
-        (Optional) If Custom Types.json is updated, please submit via code or link.
+      description: >
+        (Optional) If Custom Types.json is updated, please submit via code or
+        link.
     validations:
       required: false
