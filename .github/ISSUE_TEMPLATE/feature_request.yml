@@ -3,6 +3,7 @@ description: "Suggest a new feature or other enhancement"
 labels: ["kind/enhancement"]
 assignees:
   - freehere107
+  - yakio
 
 body:
   - type: markdown
