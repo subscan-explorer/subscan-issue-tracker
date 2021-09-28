@@ -5,6 +5,8 @@ labels:
   - Runtime
 assignees:
   - freehere107
+  - yakio
+  
 body:
   - type: markdown
     attributes:
@@ -12,7 +14,8 @@ body:
         Thank you for opening an issue. Please note that we try to keep the
         issue tracker reserved for bug reports and feature requests. For general
         usage questions, contact hello@subscan.io.
-  - type: checkboxes
+ 
+ - type: checkboxes
     attributes:
       label: Your identity
       options:
@@ -20,22 +23,18 @@ body:
           required: false
         - label: Community/User
           required: false
+          
   - type: textarea
     attributes:
-      label: Affected network(s)
-      description: |
-        Please list the networks as a list, for example:
-        ```
-        - Kusama
-        - Polkadot
-        ```
+      label: Updated network(s)
     validations:
       required: true
+  
   - type: textarea
     attributes:
       label: Runtime version description
       description: |
-        Describe the estimated time, version and detail of the version update.
+        Describe the estimated time and updated detail about the new version.
       placeholder: >
         1. Current version: 9080
 
@@ -58,9 +57,10 @@ body:
         `StakingElection` => `StakersElected`
     validations:
       required: true
+
   - type: textarea
     attributes:
-      label: Custom `Types.json` update
+      label: Custom Types.json
       description: >
         (Optional) If Custom Types.json is updated, please submit via code or
         link.
