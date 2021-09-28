@@ -15,7 +15,6 @@ body:
   - type: checkboxes
     attributes:
       label: Your identity
-      description: Please make sure to have followed the following checks.
       options:
         - label: Project developer
           required: false
