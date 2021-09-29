@@ -16,7 +16,7 @@ body:
 
   - type: dropdown
     attributes:
-      label: Your identity
+      label: Your role
       options:
         - Project developer
         - Community user
@@ -30,23 +30,33 @@ body:
     validations:
       required: true
 
+  - type: input
+    attributes:
+      label: Latest version
+      description: The latest version number which is going to be updated to.
+      placeholder: "9090"
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Estimated update time
+      placeholder: 2021-09-01 20:00 UTC+0
+    validations:
+      required: true
+
   - type: textarea
     attributes:
       label: Runtime update description
       description: |
-        Describe the estimated time and updated detail about the new version.
-
-        Can add some important events to batch & staking to ensure ease of analysis. For users tracking events this could be a breaking change, here is a tl;dr:
+        Describe the changes in the this update. Below is an example.
+      placeholder: |
+        Add some important events to batch & staking to ensure ease of analysis. For users tracking events this could be a breaking change, here is a tl;dr:
 
         - `EraPayout` => `EraPaid`
         - `Reward` => `Rewarded`
         - `Slash` => `Slashed`
         - `StakingElection` => `StakersElected`
-      placeholder: |
-        1. Current version:
-        2. The latest version:
-        3. Estimated time:
-        4. Version update content:
     validations:
       required: true
 
@@ -54,6 +64,6 @@ body:
     attributes:
       label: The JSON file of custom types
       description: >
-        (Optional) If you have the updated types JSON file, provide the URL or paste it into a code block.
+        If you have the updated types JSON file, provide the URL or paste it into a code block.
     validations:
       required: false
