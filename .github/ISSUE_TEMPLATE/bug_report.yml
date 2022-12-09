@@ -3,7 +3,6 @@ description: "When something isn't working as expected or documented"
 labels: ["kind/bug"]
 assignees:
   - freehere107
-  - mittwillson
 
 body:
   - type: markdown
