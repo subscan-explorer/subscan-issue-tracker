@@ -5,5 +5,5 @@ Click [here](https://github.com/itering/subscan-issue-tracker/issues/new/choose)
 ## Useful links
 
 - Subscan: <https://www.subscan.io/>
-- Subscan Open API: <https://docs.api.subscan.io/>
+- Subscan Open API: <https://support.subscan.io/>
 - Subscan Service Status: <https://subscan.statuspage.io/>
